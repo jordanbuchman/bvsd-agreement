@@ -25,7 +25,7 @@ begin
       #   }
       # }
 
-      query_string = page.uri.query.split("?")
+      query_string = page.uri.query.split("&")
       hs_server = query_string[0][10..-1]
       qv = query_string[1][3..-1]
 
